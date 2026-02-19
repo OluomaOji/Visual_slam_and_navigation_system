@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.001034] (slam_nav_system) JobQueued: {'identifier': 'slam_nav_system', 'dependencies': OrderedDict()}
+[0.002465] (slam_nav_system) JobStarted: {'identifier': 'slam_nav_system'}
+[0.016566] (slam_nav_system) JobProgress: {'identifier': 'slam_nav_system', 'progress': 'cmake'}
+[0.021332] (slam_nav_system) Command: {'cmd': ['/usr/bin/cmake', '/home/o_oji/slam_nav_ws/src/slam_nav_system', '-DCMAKE_INSTALL_PREFIX=/home/o_oji/slam_nav_ws/install/slam_nav_system'], 'cwd': '/home/o_oji/slam_nav_ws/build/slam_nav_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'o_oji'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/o_oji'), ('OLDPWD', '/home/o_oji/slam_nav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'o_oji'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'o_oji'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/o_oji/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/RoboGenesis:@/tmp/.ICE-unix/1465,unix/RoboGenesis:/tmp/.ICE-unix/1465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66d988cd_3e39_4b6a_ba16_4aaa970ffa0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LWX5K3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/o_oji/slam_nav_ws/build/slam_nav_system'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.048377] (slam_nav_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097470] (-) TimerEvent: {}
+[0.198107] (-) TimerEvent: {}
+[0.224736] (slam_nav_system) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.260681] (slam_nav_system) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.264996] (slam_nav_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.272714] (slam_nav_system) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.283688] (slam_nav_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.297742] (slam_nav_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.298687] (-) TimerEvent: {}
+[0.335651] (slam_nav_system) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.337450] (slam_nav_system) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.405340] (-) TimerEvent: {}
+[0.499051] (slam_nav_system) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.505401] (-) TimerEvent: {}
+[0.565340] (slam_nav_system) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.600391] (slam_nav_system) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[0.605889] (-) TimerEvent: {}
+[0.679409] (slam_nav_system) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.706581] (-) TimerEvent: {}
+[0.727680] (slam_nav_system) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.733246] (slam_nav_system) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.789873] (slam_nav_system) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.812408] (-) TimerEvent: {}
+[0.913253] (-) TimerEvent: {}
+[0.933488] (slam_nav_system) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.935370] (slam_nav_system) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/o_oji/slam_nav_ws/src/slam_nav_system/include\n'}
+[0.935655] (slam_nav_system) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.937115] (slam_nav_system) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.941896] (slam_nav_system) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.942136] (slam_nav_system) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.944090] (slam_nav_system) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.948761] (slam_nav_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.977905] (slam_nav_system) StdoutLine: {'line': b'-- Generating done\n'}
+[0.986835] (slam_nav_system) StdoutLine: {'line': b'-- Build files have been written to: /home/o_oji/slam_nav_ws/build/slam_nav_system\n'}
+[1.006415] (slam_nav_system) CommandEnded: {'returncode': 0}
+[1.006819] (slam_nav_system) JobProgress: {'identifier': 'slam_nav_system', 'progress': 'build'}
+[1.006859] (slam_nav_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/o_oji/slam_nav_ws/build/slam_nav_system', '--', '-j4', '-l4'], 'cwd': '/home/o_oji/slam_nav_ws/build/slam_nav_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'o_oji'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/o_oji'), ('OLDPWD', '/home/o_oji/slam_nav_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1502'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'o_oji'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'o_oji'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/o_oji/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/RoboGenesis:@/tmp/.ICE-unix/1465,unix/RoboGenesis:/tmp/.ICE-unix/1465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/66d988cd_3e39_4b6a_ba16_4aaa970ffa0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LWX5K3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.149'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/o_oji/slam_nav_ws/build/slam_nav_system'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.014010] (-) TimerEvent: {}
+[1.116264] (-) TimerEvent: {}
+[1.143529] (slam_nav_system) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/slam_nav_system.dir/src/slam_manager.cpp.o\x1b[0m\n'}
+[1.146689] (slam_nav_system) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/slam_nav_system.dir/src/navigation_manager.cpp.o\x1b[0m\n'}
+[1.146859] (slam_nav_system) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_nav_system.dir/src/main_system_node.cpp.o\x1b[0m\n'}
+[1.167764] (slam_nav_system) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/slam_nav_system.dir/src/localization_manager.cpp.o\x1b[0m\n'}
+[1.216941] (-) TimerEvent: {}
+[1.250352] (slam_nav_system) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/slam_nav_system.dir/src/obstacle_monitor.cpp.o\x1b[0m\n'}
+[1.317236] (-) TimerEvent: {}
+[1.419437] (-) TimerEvent: {}
+[1.521393] (-) TimerEvent: {}
+[1.622053] (-) TimerEvent: {}
+[1.724290] (-) TimerEvent: {}
+[1.825413] (-) TimerEvent: {}
+[1.927273] (-) TimerEvent: {}
+[2.030518] (-) TimerEvent: {}
+[2.131324] (-) TimerEvent: {}
+[2.231831] (-) TimerEvent: {}
+[2.333813] (-) TimerEvent: {}
+[2.434808] (-) TimerEvent: {}
+[2.536318] (-) TimerEvent: {}
+[2.637448] (-) TimerEvent: {}
+[2.738318] (-) TimerEvent: {}
+[2.839321] (-) TimerEvent: {}
+[2.942500] (-) TimerEvent: {}
+[3.048964] (-) TimerEvent: {}
+[3.231769] (-) TimerEvent: {}
+[3.408510] (-) TimerEvent: {}
+[3.714356] (-) TimerEvent: {}
+[4.024605] (-) TimerEvent: {}
+[4.127480] (-) TimerEvent: {}
+[4.272820] (-) TimerEvent: {}
+[4.381571] (-) TimerEvent: {}
+[4.533558] (-) TimerEvent: {}
+[4.634934] (-) TimerEvent: {}
+[4.737549] (-) TimerEvent: {}
+[4.839606] (-) TimerEvent: {}
+[4.940140] (-) TimerEvent: {}
+[5.041653] (-) TimerEvent: {}
+[5.147554] (-) TimerEvent: {}
+[5.248347] (-) TimerEvent: {}
+[5.349322] (-) TimerEvent: {}
+[5.449932] (-) TimerEvent: {}
+[5.550831] (-) TimerEvent: {}
+[5.653300] (-) TimerEvent: {}
+[5.754450] (-) TimerEvent: {}
+[5.855808] (-) TimerEvent: {}
+[5.957688] (-) TimerEvent: {}
+[6.059936] (-) TimerEvent: {}
+[6.160891] (-) TimerEvent: {}
+[6.261583] (-) TimerEvent: {}
+[6.362927] (-) TimerEvent: {}
+[6.464068] (-) TimerEvent: {}
+[6.566439] (-) TimerEvent: {}
+[6.667618] (-) TimerEvent: {}
+[6.769417] (-) TimerEvent: {}
+[6.870496] (-) TimerEvent: {}
+[6.971191] (-) TimerEvent: {}
+[7.076022] (-) TimerEvent: {}
+[7.176903] (-) TimerEvent: {}
+[7.281943] (-) TimerEvent: {}
+[7.382754] (-) TimerEvent: {}
+[7.485832] (-) TimerEvent: {}
+[7.733434] (-) TimerEvent: {}
+[7.871540] (-) TimerEvent: {}
+[8.104739] (-) TimerEvent: {}
+[8.319382] (-) TimerEvent: {}
+[8.480414] (-) TimerEvent: {}
+[8.599426] (-) TimerEvent: {}
+[8.700521] (-) TimerEvent: {}
+[8.801884] (-) TimerEvent: {}
+[8.903665] (-) TimerEvent: {}
+[9.006206] (-) TimerEvent: {}
+[9.107869] (-) TimerEvent: {}
+[9.209233] (-) TimerEvent: {}
+[9.309772] (-) TimerEvent: {}
+[9.410436] (-) TimerEvent: {}
+[9.511080] (-) TimerEvent: {}
+[9.612130] (-) TimerEvent: {}
+[9.713038] (-) TimerEvent: {}
+[9.813992] (-) TimerEvent: {}
+[9.916245] (-) TimerEvent: {}
+[10.017607] (-) TimerEvent: {}
+[10.119318] (-) TimerEvent: {}
+[10.220477] (-) TimerEvent: {}
+[10.321332] (-) TimerEvent: {}
+[10.421886] (-) TimerEvent: {}
+[10.537705] (-) TimerEvent: {}
+[10.638470] (-) TimerEvent: {}
+[10.740403] (-) TimerEvent: {}
+[10.841033] (-) TimerEvent: {}
+[10.942027] (-) TimerEvent: {}
+[11.045625] (-) TimerEvent: {}
+[11.146439] (-) TimerEvent: {}
+[11.247182] (-) TimerEvent: {}
+[11.348684] (-) TimerEvent: {}
+[11.449541] (-) TimerEvent: {}
+[11.550836] (-) TimerEvent: {}
+[11.651918] (-) TimerEvent: {}
+[11.757473] (-) TimerEvent: {}
+[11.858520] (-) TimerEvent: {}
+[11.976300] (-) TimerEvent: {}
+[12.077513] (-) TimerEvent: {}
+[12.241760] (-) TimerEvent: {}
+[12.344725] (-) TimerEvent: {}
+[12.449288] (-) TimerEvent: {}
+[12.640329] (-) TimerEvent: {}
+[12.750108] (-) TimerEvent: {}
+[12.851597] (-) TimerEvent: {}
+[12.952908] (-) TimerEvent: {}
+[13.054698] (-) TimerEvent: {}
+[13.155757] (-) TimerEvent: {}
+[13.256594] (-) TimerEvent: {}
+[13.358424] (-) TimerEvent: {}
+[13.459346] (-) TimerEvent: {}
+[13.560789] (-) TimerEvent: {}
+[13.661803] (-) TimerEvent: {}
+[13.762925] (-) TimerEvent: {}
+[13.863575] (-) TimerEvent: {}
+[13.964654] (-) TimerEvent: {}
+[14.065638] (-) TimerEvent: {}
+[14.166823] (-) TimerEvent: {}
+[14.267680] (-) TimerEvent: {}
+[14.368593] (-) TimerEvent: {}
+[14.469625] (-) TimerEvent: {}
+[14.570649] (-) TimerEvent: {}
+[14.671375] (-) TimerEvent: {}
+[14.773455] (-) TimerEvent: {}
+[14.875429] (-) TimerEvent: {}
+[14.976802] (-) TimerEvent: {}
+[15.078716] (-) TimerEvent: {}
+[15.180340] (-) TimerEvent: {}
+[15.280998] (-) TimerEvent: {}
+[15.381692] (-) TimerEvent: {}
+[15.482518] (-) TimerEvent: {}
+[15.583341] (-) TimerEvent: {}
+[15.685070] (-) TimerEvent: {}
+[15.786151] (-) TimerEvent: {}
+[15.887044] (-) TimerEvent: {}
+[15.987783] (-) TimerEvent: {}
+[16.088440] (-) TimerEvent: {}
+[16.189574] (-) TimerEvent: {}
+[16.290844] (-) TimerEvent: {}
+[16.392407] (-) TimerEvent: {}
+[16.493502] (-) TimerEvent: {}
+[16.595492] (-) TimerEvent: {}
+[16.697227] (-) TimerEvent: {}
+[16.798644] (-) TimerEvent: {}
+[16.900993] (-) TimerEvent: {}
+[17.002075] (-) TimerEvent: {}
+[17.103294] (-) TimerEvent: {}
+[17.204021] (-) TimerEvent: {}
+[17.304920] (-) TimerEvent: {}
+[17.406418] (-) TimerEvent: {}
+[17.508718] (-) TimerEvent: {}
+[17.616633] (-) TimerEvent: {}
+[17.717807] (-) TimerEvent: {}
+[17.819415] (-) TimerEvent: {}
+[17.921046] (-) TimerEvent: {}
+[18.028432] (-) TimerEvent: {}
+[18.132661] (-) TimerEvent: {}
+[18.245704] (-) TimerEvent: {}
+[18.348453] (-) TimerEvent: {}
+[18.393491] (slam_nav_system) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slam_nav_system\x1b[0m\n'}
+[18.453842] (-) TimerEvent: {}
+[18.748543] (-) TimerEvent: {}
+[18.858641] (-) TimerEvent: {}
+[18.961487] (-) TimerEvent: {}
+[19.062880] (-) TimerEvent: {}
+[19.164590] (-) TimerEvent: {}
+[19.265603] (-) TimerEvent: {}
+[19.367396] (-) TimerEvent: {}
+[19.468283] (-) TimerEvent: {}
+[19.471163] (slam_nav_system) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/slam_nav_system.dir/src/main_system_node.cpp.o: in function `slam_nav_system::SlamNavSystemNode::setupGoalSubscription()::{lambda(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >)#1}::operator()(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >) const':\n"}
+[19.471565] (slam_nav_system) StderrLine: {'line': b"main_system_node.cpp:(.text._ZZN15slam_nav_system17SlamNavSystemNode21setupGoalSubscriptionEvENKUlSt10shared_ptrIN13geometry_msgs3msg12PoseStamped_ISaIvEEEEE_clES7_[_ZZN15slam_nav_system17SlamNavSystemNode21setupGoalSubscriptionEvENKUlSt10shared_ptrIN13geometry_msgs3msg12PoseStamped_ISaIvEEEEE_clES7_]+0x1d7): undefined reference to `slam_nav_system::NavigationManager::sendGoal(geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&)'\n"}
+[19.473974] (slam_nav_system) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/slam_nav_system.dir/src/main_system_node.cpp.o: in function `std::_MakeUniq<slam_nav_system::SLAMManager>::__single_object std::make_unique<slam_nav_system::SLAMManager, std::shared_ptr<rclcpp::Node>&>(std::shared_ptr<rclcpp::Node>&)':\n"}
+[19.474342] (slam_nav_system) StderrLine: {'line': b"main_system_node.cpp:(.text._ZSt11make_uniqueIN15slam_nav_system11SLAMManagerEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN15slam_nav_system11SLAMManagerEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x39): undefined reference to `slam_nav_system::SLAMManager::SLAMManager(std::shared_ptr<rclcpp::Node> const&)'\n"}
+[19.475651] (slam_nav_system) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/slam_nav_system.dir/src/main_system_node.cpp.o: in function `std::_MakeUniq<slam_nav_system::LocalizationManager>::__single_object std::make_unique<slam_nav_system::LocalizationManager, std::shared_ptr<rclcpp::Node>&>(std::shared_ptr<rclcpp::Node>&)':\n"}
+[19.475887] (slam_nav_system) StderrLine: {'line': b"main_system_node.cpp:(.text._ZSt11make_uniqueIN15slam_nav_system19LocalizationManagerEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN15slam_nav_system19LocalizationManagerEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x39): undefined reference to `slam_nav_system::LocalizationManager::LocalizationManager(std::shared_ptr<rclcpp::Node> const&)'\n"}
+[19.477216] (slam_nav_system) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/slam_nav_system.dir/src/main_system_node.cpp.o: in function `std::_MakeUniq<slam_nav_system::NavigationManager>::__single_object std::make_unique<slam_nav_system::NavigationManager, std::shared_ptr<rclcpp::Node>&>(std::shared_ptr<rclcpp::Node>&)':\n"}
+[19.477466] (slam_nav_system) StderrLine: {'line': b"main_system_node.cpp:(.text._ZSt11make_uniqueIN15slam_nav_system17NavigationManagerEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN15slam_nav_system17NavigationManagerEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x39): undefined reference to `slam_nav_system::NavigationManager::NavigationManager(std::shared_ptr<rclcpp::Node> const&)'\n"}
+[19.478755] (slam_nav_system) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/slam_nav_system.dir/src/main_system_node.cpp.o: in function `std::_MakeUniq<slam_nav_system::ObstacleMonitor>::__single_object std::make_unique<slam_nav_system::ObstacleMonitor, std::shared_ptr<rclcpp::Node>&>(std::shared_ptr<rclcpp::Node>&)':\n"}
+[19.479002] (slam_nav_system) StderrLine: {'line': b"main_system_node.cpp:(.text._ZSt11make_uniqueIN15slam_nav_system15ObstacleMonitorEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN15slam_nav_system15ObstacleMonitorEJRSt10shared_ptrIN6rclcpp4NodeEEEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x39): undefined reference to `slam_nav_system::ObstacleMonitor::ObstacleMonitor(std::shared_ptr<rclcpp::Node> const&)'\n"}
+[19.564228] (slam_nav_system) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[19.569519] (-) TimerEvent: {}
+[19.570030] (slam_nav_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/slam_nav_system.dir/build.make:285: slam_nav_system] Error 1\n'}
+[19.570879] (slam_nav_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/slam_nav_system.dir/all] Error 2\n'}
+[19.571468] (slam_nav_system) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.578767] (slam_nav_system) CommandEnded: {'returncode': 2}
+[19.593724] (slam_nav_system) JobEnded: {'identifier': 'slam_nav_system', 'rc': 2}
+[19.606392] (-) EventReactorShutdown: {}

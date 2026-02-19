@@ -12,13 +12,44 @@ find_package(rclcpp_action REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 
 include_directories(include)
 
 # Main executable for the SLAM navigation system
-add_executable(slam_nav_system_node src/slam_nav_system_node.cpp src/slam_manager
+add_executable(slam_nav_system
+    src/main_system_node.cpp
+    src/slam_manager.cpp
+    src/localization_manager.cpp
+    src/navigation_manager.cpp
+    src/obstacle_monitor.cpp
+
+)
+
+ament_target_dependencies(slam_nav_system
+    rclcpp
+    rclcpp_action
+    nav2_msgs
+    nav_msgs
+    geometry_msgs
+    sensor_msgs
+    tf2
+    tf2_ros
+)
+
+install(TARGETS slam_nav_system
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY include/
+  DESTINATION include/
+)
+
+install(DIRECTORY config launch rviz
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -1,0 +1,2 @@
+source;share/slam_nav_system/environment/ament_prefix_path.sh
+source;share/slam_nav_system/environment/path.sh

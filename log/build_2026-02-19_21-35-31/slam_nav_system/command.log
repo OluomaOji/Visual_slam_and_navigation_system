@@ -1,0 +1,2 @@
+Invoking command in '/home/o_oji/slam_nav_ws/build/slam_nav_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/o_oji/slam_nav_ws/src/slam_nav_system -DCMAKE_INSTALL_PREFIX=/home/o_oji/slam_nav_ws/install/slam_nav_system
+Invoked command in '/home/o_oji/slam_nav_ws/build/slam_nav_system' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/o_oji/slam_nav_ws/src/slam_nav_system -DCMAKE_INSTALL_PREFIX=/home/o_oji/slam_nav_ws/install/slam_nav_system

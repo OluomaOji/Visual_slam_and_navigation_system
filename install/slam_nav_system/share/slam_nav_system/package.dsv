@@ -1,0 +1,5 @@
+source;share/slam_nav_system/local_setup.bash
+source;share/slam_nav_system/local_setup.dsv
+source;share/slam_nav_system/local_setup.ps1
+source;share/slam_nav_system/local_setup.sh
+source;share/slam_nav_system/local_setup.zsh
